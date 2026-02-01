@@ -1,0 +1,2 @@
+# Derin_Ogrenme_Yontemleri_ile_X-Ray_Goruntulerinde_Tehlikeli_Nesnelerin_Hizli_ve_Guvenilir-Tespiti
+Çalışmada, mevcut güvenlik tarama yöntemlerinin eksikliklerini gidermek üzere derin öğrenme algoritmalarına dayalı bir model geliştirilmiştir.
