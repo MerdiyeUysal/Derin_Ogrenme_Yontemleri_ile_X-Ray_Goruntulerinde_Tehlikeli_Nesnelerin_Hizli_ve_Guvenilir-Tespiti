@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and local artifacts
+logs/
+*.log
+
+# Model checkpoints and training runs
+runs/
+runs_eval/
+runs_finetune/
+runs_predict/
+runs_sixray/
+
+# Heavy datasets and caches (kept outside git; describe in README instead)
+Sixray.v4-yolo_data_640.yolov8/
+X-ray baggage detection.v1-prohibited_items.yolov8/
+*.cache
+
+# XAI and demo outputs
+outputs/
+custom_output/
+test_outputs/
+xai_outputs*/
+xai_test_*/
+xai_test_results/
+
+# Zip archives and large binary bundles
+*.zip
+*.pt
+
+
