@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Gun', 'Knife', 'Pliers', 'Scissors', 'Wrench']
+
+roboflow:
+  workspace: siewchinyip-outlook-my
+  project: sixray
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/siewchinyip-outlook-my/sixray/dataset/4

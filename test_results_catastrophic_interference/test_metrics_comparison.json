@@ -1,0 +1,42 @@
+{
+  "Sixray": {
+    "dataset_name": "Sixray",
+    "model_path": "C:\\Users\\Merdiye Uysal\\Desktop\\YÖT Xray Görüntülerinden Tehlikeli Nesnelerin Tespiti (XAI)\\runs_finetune\\sixray_to_prohibited_finish\\weights\\finetuned_best.pt",
+    "data_yaml": "C:\\Users\\Merdiye Uysal\\Desktop\\YÖT Xray Görüntülerinden Tehlikeli Nesnelerin Tespiti (XAI)\\Sixray.v4-yolo_data_640.yolov8\\data.yaml",
+    "test_images_count": 0,
+    "metrics": {
+      "precision": 0.013636363636363636,
+      "recall": 0.0011450381679389313,
+      "mAP50": 0.007038867562380037,
+      "mAP50_95": 0.0018689015251441815,
+      "f1": 0.002112676056338026
+    },
+    "class_metrics": {
+      "Gun": 0.0,
+      "Knife": 0.0,
+      "Pliers": 0.009344507625720908,
+      "Scissors": 0.0,
+      "Wrench": 0.0
+    }
+  },
+  "Prohibited Items": {
+    "dataset_name": "Prohibited Items",
+    "model_path": "C:\\Users\\Merdiye Uysal\\Desktop\\YÖT Xray Görüntülerinden Tehlikeli Nesnelerin Tespiti (XAI)\\runs_finetune\\sixray_to_prohibited_finish\\weights\\finetuned_best.pt",
+    "data_yaml": "C:\\Users\\Merdiye Uysal\\Desktop\\YÖT Xray Görüntülerinden Tehlikeli Nesnelerin Tespiti (XAI)\\X-ray baggage detection.v1-prohibited_items.yolov8\\data.yaml",
+    "test_images_count": 0,
+    "metrics": {
+      "precision": 0.8569538604972818,
+      "recall": 0.8038604317404341,
+      "mAP50": 0.8673457682980985,
+      "mAP50_95": 0.44446592677272484,
+      "f1": 0.8249606798318204
+    },
+    "class_metrics": {
+      "0": 0.5738557273685305,
+      "1": 0.44968139233354626,
+      "2": 0.337606002770842,
+      "3": 0.4257015888668099,
+      "4": 0.43548492252389553
+    }
+  }
+}
